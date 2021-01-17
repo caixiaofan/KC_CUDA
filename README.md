@@ -15,7 +15,7 @@
 
 ## 程序代码编译说明
 + 程序运行依赖vmtouch加速读取速度，开源版本将此部分独立出代码，需要自行安装
-    - debain或者ubuntu可以使用suto apt install vmtouch命令进行安装
+    - debain或者ubuntu可以使用sudo apt install vmtouch命令进行安装
     - 其他安装方法可以参考[vmtouch项目](https://github.com/hoytech/vmtouch)
 + 编译需求g++以及nvcc，只需要进入src目录执行make命令即可
 + 注意本程序的makefile中的gpu-architecture以及gpu-code需要改成机器对应的显卡架构，默认为30系显卡架构
