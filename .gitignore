@@ -1,0 +1,7 @@
+data/
+src/*.o
+src/kc_cpu
+src/kc_gpu
+.vscode/
+3dparty/
+temp/
